@@ -7,7 +7,7 @@ const Users = (props) => {
         <p className="text-xl text-gray-600 w-1/4 sm:w-auto md:w-2/4 lg:w-2/4 xl:w-2/4 m-auto px-8 pb-5">
           {props.desc}
         </p>
-        <hr className="w-6/12 m-auto p-5" />
+        
       </div>
       <div className="pb-5">
         <p className="text-xl font-bold">{props.name}</p>

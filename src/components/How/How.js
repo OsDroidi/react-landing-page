@@ -8,8 +8,8 @@ const How = () => {
       className="bg-dark-blue text-white bg-fixed"
       style={{ backgroundImage: `url(${Background})` }}
     >
-      <div className=" flex items-center flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row container mx-auto">
-        <div className="fflex-auto w-full h-auto  px-4 py-5 m-5">
+      <div className=" flex items-center flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row container mx-auto py-12">
+        <div className="flex-auto w-full h-auto  px-4 py-5 m-5 ">
           <img src={howIllustration} alt="howIllustration" />
         </div>
         <div className="flex-auto   py-10 m-5">

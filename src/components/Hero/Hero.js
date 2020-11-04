@@ -5,10 +5,10 @@ import Background from "../../images/fizzy.png";
 const Hero = () => {
   return (
     <div
-      className="bg-dark-blue text-white bg-fixed "
+      className="bg-dark-blue text-white bg-fixed py-16"
       style={{ backgroundImage: `url(${Background})` }}
     >
-      <div className="flex items-center flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row container mx-auto">
+      <div className="flex items-center flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row container mx-auto py-12">
         <div className="flex-auto   py-10 m-5">
           <p className="text-5xl font-bold ">BEST HEADLINE IN THE WORLD</p>
           <p className="text-xl text-gray-100 mt-4">

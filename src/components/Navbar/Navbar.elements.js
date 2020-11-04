@@ -24,7 +24,7 @@ export const NavIcon = styled(IoLogoBuffer)`
 `;
 
 export const MobileIcon = styled.div`
-  ${tw` hidden`}
+  ${tw` hidden mt-2`}
 
   @media screen and (max-width: 960px) {
     transform: translate(-100%, 60%);
