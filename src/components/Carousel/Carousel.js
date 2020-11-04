@@ -13,7 +13,8 @@ import samsung from "../../images/carousel/samsung.svg";
 const Carousel = () => {
   return (
     <div className="bg-gray-200 py-12">
-      <div className="container mx-auto ">
+      <p className="text-5xl font-bold py-8 text-center">Our Partners</p>
+      <div className="container mx-auto py-12">
         <OwlCarousel
           autoplay
           loop

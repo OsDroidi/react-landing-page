@@ -54,14 +54,15 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 80px;
-  border-bottom: 2px solid transparent;
+
+  ${tw` h-20`}
 
   &:hover {
     border-bottom: 2px solid #ffffff;
   }
 
   @media screen and (max-width: 960px) {
-    width: 100%;
+    ${tw` w-full`}
 
     &:hover {
       border: none;
@@ -71,27 +72,17 @@ export const NavItem = styled.li`
 
 export const NavItemBtn = styled.li`
   @media screen and (max-width: 960px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 120px;
+    ${tw` flex justify-center items-center w-full h-32 `}
   }
 `;
 
 export const NavLinks = styled(Link)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
   padding: 0.5rem 1rem;
-  height: 100%;
+
+  ${tw` text-white flex items-center no-underline h-full `}
 
   @media screen and (max-width: 960px) {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
+    ${tw` text-center p-8 w-full table`}
 
     &:hover {
       color: #4b59f7;
@@ -101,13 +92,10 @@ export const NavLinks = styled(Link)`
 `;
 
 export const NavBtnLink = styled(Link)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
   padding: 8px 16px;
-  height: 100%;
-  width: 100%;
+
   border: none;
   outline: none;
+
+  ${tw`flex justify-center items-center no-underline h-full w-full `}
 `;
