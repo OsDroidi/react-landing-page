@@ -4,13 +4,13 @@ import { featuresData } from "./data";
 const Features = () => {
   return (
     <div className="container mx-auto">
-      <p className="text-4xl text-center pt-10">WHY USE OUR PLATFORM</p>
+      <p className="text-5xl text-center font-bold py-12">WHY USE OUR PLATFORM</p>
       <div className="flex flex-wrap">
         {featuresData.map((data) => {
           return (
             <div
               key={data.id}
-              className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 mb-4 p-8"
+              className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3  py-8 pb-12"
             >
               <div className="flex flex-row sm:flex-col md:flex-row lg:flex-row xl:flex-row ">
                 <div>
