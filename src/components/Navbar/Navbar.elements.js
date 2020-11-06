@@ -77,7 +77,7 @@ export const NavItemBtn = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  padding: 0.5rem 1rem;
+  padding: 2.5rem 1rem;
 
   ${tw` text-white flex items-center no-underline h-full `}
 

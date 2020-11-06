@@ -1,7 +1,6 @@
 import React from "react";
 import GlobalStyle from "./globalStyles";
 import { BrowserRouter as Router } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
 import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
 import Touch from "./components/Touch/Touch";
@@ -16,7 +15,6 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      <ScrollToTop />
       <Navbar />
       <Hero />
       <Features />
